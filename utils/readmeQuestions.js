@@ -46,8 +46,23 @@ const questions = [
   },
   {
     type: "input",
+    name: "contributors",
+    message: "What are the GitHub username(s) of contributors? (separate by comma)",
+  },
+  {
+    type: "input",
     name: "userName",
-    message: "What is your GitHub username?",
+    message: "What is the GitHub username of the person who can be contacted for questions? (single user)",
+  },
+  {
+    type: "input",
+    name: "name",
+    message: "What is the name of the person who can be contacted for questions?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is that persons email address?",
   },
 ];
 

@@ -28,8 +28,7 @@ function renderLicenseSection(license) {}
 
 // Function to generate markdown for README
 function generateMarkdown(answers) {
-  return `# ${answers.title}
-
+  return `# README for - ${answers.title}
   ## Description
   ${answers.description}
   
@@ -62,13 +61,12 @@ function generateMarkdown(answers) {
   ## Tests
   ${answers.test}
 
-  ## Resources
-  - placeholder 1
-  - placeholder 2
+  ## Contributors
+  Created by GitHub user(s): ${answers.contributors}
 
-  ## Created By
-  Created by GitHub user: ${answers.userName}(https://github.com/${answers.userName})
-
+  ## Questions
+  Please reach out to ${answers.name} at ${answers.email} with any questions.
+  ${answers.name}'s GitHub repo is located at <https://github.com/${answers.userName}>
   `;
     }
 
