@@ -35,16 +35,17 @@ function generateMarkdown(answers) {
   
   ## Table of Contents
   - [Description](#description)
-  - [Live Site & Code Repository](#Live Site & Code Repository)
+  - [Live_Site_and_Code_Repository](#live_site_and_code_repository)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
   - [Tests](#tests)
   - [Resources](#resources)
-  - [Created By](#Created By)
+  - [Created_By](#created_by)
   
-  ## Live Site & Code Repository
+  ## Live Site and Code Repository
   GitHub Repo link of project: <${answers.repo}>
+  <br />
   Live project link: <${answers.URL}>
 
   ## Installation
