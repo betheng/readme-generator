@@ -22,8 +22,13 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is the link to clone the repo?",
-    name: "clone",
+    name: "URL",
+    message: "What is the URL of the live site?",
+  },
+  {
+    type: "input",
+    name: "repo",
+    message: "What is the URL of the github repo?",
   },
   {
     type: "list",
@@ -41,7 +46,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please enter any testing protocols you used for your project?",
+    message: "Please enter any testing protocols you used:",
     name: "test",
   },
   {
@@ -58,16 +63,6 @@ const questions = [
     type: "input",
     name: "userEmail",
     message: "What is your email?",
-  },
-  {
-    type: "input",
-    name: "URL",
-    message: "What is the URL of the live site?",
-  },
-  {
-    type: "input",
-    name: "repo",
-    message: "What is the URL of the github repo?",
   },
 ];
 
