@@ -2,7 +2,7 @@
 function generateMarkdown(answers) {
   return `# README for - ${answers.title}
   ![badge](https://img.shields.io/badge/license-${answers.license}-violet)<br />
-  The code in this repo is covered under the ${answers.license}.
+  The code in this repo is covered under the ${answers.license} license.
   
   ## Description
   ${answers.description}
