@@ -1,4 +1,4 @@
-// array of questions for user - WAS "questions"
+// questions for user input where answers will be put into README file
 const questions = [
   {
     type: "input",
@@ -30,9 +30,9 @@ const questions = [
     name: "license",
     message: "Please select the license you used for this project.",
     choices: [
-      "GNU AGPLv3",
-      "GNU GPLv3",
-      "GNU LGPLv3",
+      "GNU_AGPLv3",
+      "GNU_GPLv3",
+      "GNU_LGPLv3",
       "Mozilla",
       "MIT",
       "Apache",

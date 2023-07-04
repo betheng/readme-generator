@@ -29,6 +29,9 @@ function renderLicenseSection(license) {}
 // Function to generate markdown for README
 function generateMarkdown(answers) {
   return `# README for - ${answers.title}
+  ![badge](https://img.shields.io/badge/license-${answers.license}-violet)<br />
+  The code in this repo is covered under the ${answers.license}.
+  
   ## Description
   ${answers.description}
   
@@ -39,8 +42,8 @@ function generateMarkdown(answers) {
   - [Usage](#usage)
   - [License](#license)
   - [Tests](#tests)
-  - [Resources](#resources)
-  - [Created_By](#created_by)
+  - [Contributors](#contributors)
+  - [Questions](#questions)
   
   ## Live Site and Code Repository
   GitHub Repo link of project: <${answers.repo}>
@@ -54,8 +57,7 @@ function generateMarkdown(answers) {
   ${answers.usage}
   
   ## License
-  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
-  <br />
+  ![Static Badge](https://img.shields.io/badge/license-${answers.license}-violet)
   This application uses the ${answers.license} license. 
   
   ## Tests
