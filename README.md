@@ -38,5 +38,6 @@
 
   ## Questions
   Please reach out to Beth Engstrom at bethengstrom@gmail.com with any questions.
+  <br />
   Beth Engstrom's GitHub repo is located at <https://github.com/betheng>
   

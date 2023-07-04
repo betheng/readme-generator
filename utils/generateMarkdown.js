@@ -40,6 +40,7 @@ function generateMarkdown(answers) {
 
   ## Questions
   Please reach out to ${answers.name} at ${answers.email} with any questions.
+  <br />
   ${answers.name}'s GitHub repo is located at <https://github.com/${answers.userName}>
   `;
     }
