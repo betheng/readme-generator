@@ -26,7 +26,7 @@ function generateMarkdown(answers) {
   ${answers.installation}
   
   ## Usage
-  ${answers.usage}
+  ![Images can be added here](./assets/placeholder)
   
   ## License
   ![Static Badge](https://img.shields.io/badge/license-${answers.license}-violet)
