@@ -2,11 +2,11 @@
 const inquirer = require("./node_modules/inquirer");
 const fs = require("fs");
 const util = require("util");
-// Variables to connect modules to application
+
+// Variables to connect modules
 const generateMarkdown = require("./utils/generateMarkdown");
-//const licenseBadge = require("./utils/licenseBadge").licenseBadge;
 const questions = require("./utils/readmeQuestions").questions;
-//Allows for use of async await
+
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // function to initialize program and create README file
@@ -21,6 +21,5 @@ async function init() {
     console.log(err);
 }
 }
-
-// function call to initialize program
+// function to initialize program
 init();

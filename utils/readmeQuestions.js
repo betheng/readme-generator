@@ -37,6 +37,7 @@ const questions = [
       "MIT",
       "Apache",
       "Boost",
+      "NONE - This repo does not have any license associated."
     ],
   },
   {
